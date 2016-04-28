@@ -65,7 +65,7 @@ public class GUIPizza {
 
     private void makeNorthRegion() {
 
-        JLabel newImageLable = new JLabel(new ImageIcon("Pizza_img.jpg", "pizza image"), JLabel.CENTER);
+        JLabel newImageLable = new JLabel(new ImageIcon("out/Pizza_img.jpg"), JLabel.CENTER);
         contentPane.add(newImageLable, BorderLayout.NORTH);
     }
 
